@@ -1,0 +1,67 @@
+::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #828282;
+  border-radius: 5px;
+}
+
+.App {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.app__h1{
+  margin: 0;
+  margin-top: 10px;
+}
+
+.app__fromicon {
+  font-size: 50px !important;
+  fill: #3498db !important;
+}
+
+.app__from{
+  position: fixed;
+  width: 60%;
+  bottom: 0;
+  z-index: 1;
+  
+}
+
+.form__fx {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center;
+  margin-bottom: 2px;
+  margin-bottom: 8px !important;
+  align-items: center;
+}
+
+.app__input {
+  flex: 0.8;
+  padding: 0 20px;
+  height: 37px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  border: none;
+  background-color: #f1f0f0;
+}
+
+.app__iconbutton {
+  flex: 0.2;
+}
+
+.app__flip {
+    overflow: auto;
+    height: 74vh;
+}
+.MuiTypography-h5 {
+  font-size: 1rem !important;
+}
+.MuiCardContent-root {
+  padding: 4px !important;
+}

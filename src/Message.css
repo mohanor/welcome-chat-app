@@ -1,0 +1,33 @@
+.message{
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+}
+
+.message__user{
+    margin-left: auto;
+    color: white;
+    text-align: left !important;
+}
+
+.message__userCard{
+    background-color: #3498DB !important;
+    color: white !important;
+}
+
+.message__questCard{
+    background-color: #f1f0f0 !important;
+}
+
+.text__h1{
+    text-align: left;
+}
+
+.text__h1 > div{
+    font-size: 15px;
+    color: #2ECC71;
+}
+
+.MuiPaper-elevation1{
+    box-shadow: none !important;
+}
